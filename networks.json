@@ -1,0 +1,290 @@
+[
+  {
+    "name": "EOS",
+    "description": "The EOS Mainnet",
+    "owner": "The EOS community",
+    "chainId": "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+    "type": "mainnet",
+    "prefix":"EOS",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "Greymass",
+        "protocol": "https",
+        "port": 443,
+        "url": "eos.greymass.com",
+        "description": "API Node"
+      },      {
+        "name": "EOS Nation",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.eosn.io",
+        "description": "API Node"
+      },
+      {
+        "name": "GenerEOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "mainnet.genereos.io",
+        "description": "Public node provided by GenerEOS"
+      }
+    ]
+  },
+  {
+    "name": "TELOS",
+    "description": "TELOS Mainnet",
+    "owner": "TELOS",
+    "chainId": "4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11",
+    "type": "mainnet",
+    "prefix":"TLOS",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "Telos Germany",
+        "protocol": "https",
+        "port": 443,
+        "url": "apinode.telosgermany.io",
+        "description": "HTTPS API provided by BP candidate TelosGermany"
+      },
+      {
+        "name": "Telos Foundation",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.telosfoundation.io",
+        "description": "Load balancer of various public nodes provided by the Telos Foundation"
+      },
+      {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "telos-mainnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Telos Mainnet API"
+      },
+      {
+        "name": "CalEOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "telos.caleos.io",
+        "description": "Public node provided by CalEOS"
+      }      
+    ]
+  },
+  {
+    "name": "WAX",
+    "description": "WAX Mainnet",
+    "owner": "WAX",
+    "chainId": "1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4",
+    "type": "mainnet",
+    "prefix":"WAX",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "Eosphere (WAX)",
+        "protocol": "https",
+        "port": 443,
+        "url": "wax.eosphere.io",
+        "description": "Eosphere WAX Mainnet API"
+      }
+    ]
+  },
+  {
+    "name": "WORBLI",
+    "description": "WORBLI Mainnet",
+    "owner": "WORBLI",
+    "chainId": "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f",
+    "type": "mainnet",
+    "prefix":"WBI",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "Worbli",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.worbli.io",
+        "description": "HTTPS API"
+      },
+      {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "worbli-mainnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Worbli Mainnet API"
+      }      
+    ]
+  },
+  {
+    "name": "MEETONE",
+    "description": "MEETONE Mainnet",
+    "owner": "MEETONE",
+    "chainId": "cfe6486a83bad4962f232d48003b1824ab5665c36778141034d75e57b956e422",
+    "type": "mainnet",
+    "prefix":"MEETONE",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "MEETONE",
+        "protocol": "https",
+        "port": 443,
+        "url": "fullnode.meet.one",
+        "description": "MEETONE Mainnet API"
+      }
+    ]
+  },
+  {
+    "name": "BOS",
+    "description": "BOS Mainnet",
+    "owner": "BOS",
+    "chainId": "d5a3d18fbb3c084e3b1f3fa98c21014b5f3db536cc15d08f9f6479517c6a3d86",
+    "type": "mainnet",
+    "prefix":"BOS",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "BOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.boscore.io",
+        "description": "BOS Mainnet API"
+      }
+    ]
+  },
+  {
+    "name": "TELOS-testnet",
+    "description": "TELOS Testnet",
+    "owner": "TELOS",
+    "chainId": "e17615decaecd202a365f4c029f206eee98511979de8a5756317e2469f2289e3",
+    "type": "testnet",
+    "prefix":"TLOS",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "telos-testnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Telos Testnet API"
+      },
+      {
+        "name": "EOS Miami",
+        "protocol": "https",
+        "port": 17441,
+        "url": "api.eos.miami",
+        "description": "HTTPS API"
+      },
+      {
+        "name": "CalEOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "testnet.telos.caleos.io",
+        "description": "Public node provided by CalEOS"
+      },
+      {
+        "name": "Telos Foundation",
+        "protocol": "https",
+        "port": 443,
+        "url": "api-test.telosfoundation.io",
+        "description": "Load balancer of various public nodes provided by the Telos Foundation"
+      }
+    ]
+  },
+  {
+    "name": "Jungle-testnet-v2",
+    "description": "Welcome to the Jungle",
+    "owner": "cryptolions",
+    "chainId": "e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473",
+    "type": "testnet",
+    "prefix":"EOS",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "Jungle 2",
+        "protocol": "https",
+        "port": 443,
+        "url": "jungle2.cryptolions.io",
+        "description": "Cryptolions Jungle Testnet v2 API"
+      }
+    ]
+  },
+  {
+    "name": "Kylin-testnet",
+    "description": "CryptoKylin Testnet",
+    "owner": "CryptoKylin",
+    "chainId": "5fff1dae8dc8e2fc4d5b23b2c7665c97f9e9d8edf2b6485a86ba311c25639191",
+    "type": "testnet",
+    "prefix":"EOS",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "Aloha EOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.kylin.alohaeos.com",
+        "description": "Public node provided by Aloha EOS"
+      },
+      {
+        "name": "eospace",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.kylin-testnet.eospace.io",
+        "description": "HTTPS API"
+      },
+      {
+        "name": "eosasia",
+        "protocol": "https",
+        "port": 443,
+        "url": "api-kylin.eosasia.one",
+        "description": "HTTPS API"
+      },
+      {
+        "name": "eoslaomao",
+        "protocol": "https",
+        "port": 443,
+        "url": "api-kylin.eoslaomao.com",
+        "description": "HTTPS API"
+      }
+    ]
+  },
+  {
+    "name": "WORBLI-testnet",
+    "description": "WORBLI Testnet",
+    "owner": "WORBLI",
+    "chainId": "0d1ba39b44e70e9c36b74d60677ef3b686bd4347ade092b816886a6a35ddb6f7",
+    "type": "testnet",
+    "prefix":"WBI",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "worbli-testnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Worbli Testnet API"
+      },
+      {
+        "name": "EOSphere",
+        "protocol": "https",
+        "port": 443,
+        "url": "worbli-testnet.eosphere.io",
+        "description": "HTTPS API"
+      }
+    ]
+  },
+  {
+    "name": "IRC",
+    "description": "The IRC Mainnet",
+    "owner": "The IRC community",
+    "chainId": "cf057bbfb72640471fd910bcb67639c22df9f92470936cddc1ade0e2f2e7dc4f",
+    "type": "mainnet",
+    "prefix":"IRC",
+    "network": "irc",
+    "endpoints": [
+      {
+        "name": "IRC MAIN",
+        "protocol": "http",
+        "port": 80,
+        "url": "eos.devopsing.ir",
+        "description": "API Node"
+      }
+    ]
+  }
+]
