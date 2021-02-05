@@ -280,8 +280,8 @@
     "endpoints": [
       {
         "name": "IRC MAIN",
-        "protocol": "http",
-        "port": 80,
+        "protocol": "https",
+        "port": 443,
         "url": "eos.devopsing.ir",
         "description": "API Node"
       }
